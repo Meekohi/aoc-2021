@@ -74,7 +74,7 @@ for(let roll = 0; roll < 300; roll++) {
   scores[turn] = newScores[turn]
   
   console.log("Player",turn,"Roll",roll)
-  d(scores)
+  //d(scores)
   console.log("universes...",[
     _.sum(_.flatMapDeep(scores[0])),
     _.sum(_.flatMapDeep(scores[1]))
