@@ -6,7 +6,7 @@ const input = fs.readFileSync('input.txt').toString()
 const ages = _.countBy(input.split(","))
 console.log(ages)
 
-for(let t = 0; t < 80; t++){
+for(let t = 0; t < 256; t++){
   const newFish = ages['0'] || 0
   ages['0'] = ages['1'] || 0
   ages['1'] = ages['2'] || 0
